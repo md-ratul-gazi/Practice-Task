@@ -1,6 +1,12 @@
+/* All shared code here */
 body {
   font-family: "Work Sans", sans-serif;
+  margin: 0px;
+  padding: 0px;
 }
+/* All shared code here */
+
+/* Header section style starts here */
 header {
   display: flex;
   flex-direction: column;
@@ -12,13 +18,14 @@ header {
   /* height: 808px; */
   background-image: url("../images/banner/banner3.png");
   /* background-position: center; */
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   /* background-size: cover; */
   /* margin: 0 auto; */
   background-size: 100% 100%;
 }
 .header-section {
   padding: 216px 230px 166px 845px;
+  width: 525px;
 }
 .header-section h2 {
   color: #fff;
@@ -45,3 +52,82 @@ header {
   background: #fff;
   margin-top: 0px;
 }
+/* Header section style ends here */
+
+/* Main section style starts here */
+main {
+  width: 1600px;
+  margin: 0px auto;
+  background: #fff;
+}
+/* Failure section style starts here */
+
+.failure {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 140px;
+}
+.left-align_image {
+  width: 700px;
+}
+.right-align {
+  width: 600px;
+}
+.right-align h2 {
+  color: #151414;
+  font-size: 50px;
+  font-weight: 700;
+}
+.right-align p {
+  color: #444343;
+  font-size: 20px;
+  font-weight: 500;
+}
+ul {
+  list-style: none;
+}
+
+ul li:before {
+  content: "✓";
+  color: #16d887;
+}
+.right-align ul li {
+  color: #444343;
+  font-size: 20px;
+  font-weight: 500;
+}
+/* Failure section ends here */
+
+/* My plans div start here */
+.my-plans {
+  margin-top: 214px;
+}
+.my-plans h2 {
+  color: #151414;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+}
+.my-plans_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 53px;
+  text-align: center;
+  gap: 99px;
+}
+.my-plans_container h2 {
+  color: #151414;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+.my-plans_container p {
+  color: #737272;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+}
+/* My plans div ends here */
+
+/* Main section ends here */
