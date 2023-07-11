@@ -4,6 +4,16 @@ body {
   margin: 0px;
   padding: 0px;
 }
+a {
+  text-decoration: none;
+  color: #fff;
+}
+i {
+  background-color: #fff;
+  font-size: 1rem;
+  border-radius: 50%;
+  padding: 0.5rem;
+}
 /* All shared code here */
 
 /* Header section style starts here */
@@ -134,46 +144,90 @@ ul li:before {
 .mindset-section {
   width: 1140px;
   height: 300px;
-    position: relative;
-    margin: 0px auto;
-    margin-top: 135px;
-    
-
+  position: relative;
+  margin: 0px auto;
+  margin-top: 135px;
 }
 
-.keep-positive{
+.keep-positive {
   background-image: url("../images/gradient1.png");
   padding: 60px;
   position: absolute;
-  top:0px;
+  top: 0px;
   width: 1010px;
   height: 180px;
   border: 2px;
   /* border-radius: 8px;
   background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0.00) 100%); */
 }
-.keep-positive h3{
+.keep-positive h3 {
   margin-top: 0px;
-  color: #FFF;
-font-size: 40px;
-font-weight: 700;
-width: 459px;/* height: 0px; */
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  width: 459px; /* height: 0px; */
 }
-.keep-positive button{
-  color: #005FAC;
-text-align: center;
-font-size: 20px;
-font-weight: 600;
-border-radius: 5px;
-background: #FFF;
-/* width: 200px; */
-/* height: 0px; */
-padding: 20px 36px;
-border: none;
-margin-top: 0px;
-margin-bottom: 59px;
+.keep-positive button {
+  color: #005fac;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 5px;
+  background: #fff;
+  /* width: 200px; */
+  /* height: 0px; */
+  padding: 20px 36px;
+  border: none;
+  margin-top: 0px;
+  margin-bottom: 59px;
 }
 
 /* Keep positive section starts here */
 
 /* Main section ends here */
+
+/* Footer section starts here */
+footer {
+  display: flex;
+  justify-content: space-around;
+  /* width: 1600px; */
+  margin-top: 130px;
+  /* height: 577px; */
+  background: #151414;
+  padding: 130px;
+}
+.future-l {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 500px;
+  margin-left: 230px;
+}
+.icon {
+  margin-left: 230px;
+}
+.future-l h3 {
+  color: #f8f8f8;
+  font-size: 45px;
+  font-weight: 700;
+}
+.future-l p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
+input {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 400;
+  border: none;
+}
+.subscribe {
+  width: 500px;
+}
+.subscribe h3 {
+  color: #f8f8f8;
+  font-size: 45px;
+  font-weight: 700;
+}
+/* Footer section ends here */
